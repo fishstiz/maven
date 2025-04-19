@@ -3,8 +3,8 @@
   <groupId>io.github.fishstiz</groupId>
   <artifactId>minecraft-cursor-fabric</artifactId>
   <versioning>
-    <latest>3.6.6+1.21.4</latest>
-    <release>3.6.6+1.21.4</release>
+    <latest>3.6.7+1.20.1</latest>
+    <release>3.6.7+1.20.1</release>
     <versions>
       <version>3.6.0+1.20.1</version>
       <version>3.6.0+1.21.1</version>
@@ -34,7 +34,8 @@
       <version>3.6.6+1.21.1</version>
       <version>3.6.6+1.21.2</version>
       <version>3.6.6+1.21.4</version>
+      <version>3.6.7+1.20.1</version>
     </versions>
-    <lastUpdated>20250331225924</lastUpdated>
+    <lastUpdated>20250419175254</lastUpdated>
   </versioning>
 </metadata>
