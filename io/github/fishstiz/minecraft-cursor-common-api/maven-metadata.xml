@@ -3,8 +3,8 @@
   <groupId>io.github.fishstiz</groupId>
   <artifactId>minecraft-cursor-common-api</artifactId>
   <versioning>
-    <latest>3.7.0+1.21.1</latest>
-    <release>3.7.0+1.21.1</release>
+    <latest>3.7.0+1.21.2</latest>
+    <release>3.7.0+1.21.2</release>
     <versions>
       <version>3.6.0+1.20.1</version>
       <version>3.6.0+1.21.1</version>
@@ -33,7 +33,8 @@
       <version>3.6.7+1.21.4</version>
       <version>3.7.0+1.20.1</version>
       <version>3.7.0+1.21.1</version>
+      <version>3.7.0+1.21.2</version>
     </versions>
-    <lastUpdated>20250509070414</lastUpdated>
+    <lastUpdated>20250509070832</lastUpdated>
   </versioning>
 </metadata>
