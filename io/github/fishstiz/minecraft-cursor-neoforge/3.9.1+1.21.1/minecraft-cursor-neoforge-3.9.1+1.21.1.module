@@ -1,0 +1,98 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.fishstiz",
+    "module": "minecraft-cursor-neoforge",
+    "version": "3.9.1+1.21.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.fishstiz",
+          "module": "minecraft-cursor-common-api",
+          "version": {
+            "requires": "3.9.1+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "minecraft-cursor-neoforge-3.9.1+1.21.1.jar",
+          "url": "minecraft-cursor-neoforge-3.9.1+1.21.1.jar",
+          "size": 259591,
+          "sha512": "124b9bef8c9ad2fa0b775b6c594e4a54a650baf3a72163f4a202428df04dfb0f6d5ce1462755305f1a40b3891b6b763a3f918a681ca0a128251bca2084f7eb69",
+          "sha256": "12201e1f6b136f6c5b8845b9e5e4693f7dfe6e9d759d5b6442fe570ba2427a2e",
+          "sha1": "b0bd967ead31567b20aee11adb61cab792688bd8",
+          "md5": "43d715d2a75a9dfb029d632b4f7fc4ae"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.fishstiz",
+          "module": "minecraft-cursor-common-api",
+          "version": {
+            "requires": "3.9.1+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "minecraft-cursor-neoforge-3.9.1+1.21.1.jar",
+          "url": "minecraft-cursor-neoforge-3.9.1+1.21.1.jar",
+          "size": 259591,
+          "sha512": "124b9bef8c9ad2fa0b775b6c594e4a54a650baf3a72163f4a202428df04dfb0f6d5ce1462755305f1a40b3891b6b763a3f918a681ca0a128251bca2084f7eb69",
+          "sha256": "12201e1f6b136f6c5b8845b9e5e4693f7dfe6e9d759d5b6442fe570ba2427a2e",
+          "sha1": "b0bd967ead31567b20aee11adb61cab792688bd8",
+          "md5": "43d715d2a75a9dfb029d632b4f7fc4ae"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "minecraft-cursor-neoforge-3.9.1+1.21.1-sources.jar",
+          "url": "minecraft-cursor-neoforge-3.9.1+1.21.1-sources.jar",
+          "size": 118258,
+          "sha512": "cd411951186956ab244533f41e9db9f2e1954cfb95236c950b16318179f5631a6267136cd279df19dd4f0f9e8477dfcc95d3c68dab17a35aefee792f7c9d8f58",
+          "sha256": "7dee81478d480817a3fd9554c8e58795e79134cb247e148a41269b5c28ddeda6",
+          "sha1": "68fcafd80e44b2ae518ee85460be9ac0e924a781",
+          "md5": "376244043f5c1bc48b389c9a9c1815dd"
+        }
+      ]
+    }
+  ]
+}
