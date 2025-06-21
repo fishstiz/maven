@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.fishstiz",
+    "module": "minecraft-cursor-fabric-api",
+    "version": "3.9.2+1.21.6-fabric.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "minecraft-cursor-fabric-api-3.9.2+1.21.6-fabric.1.jar",
+          "url": "minecraft-cursor-fabric-api-3.9.2+1.21.6-fabric.1.jar",
+          "size": 13483,
+          "sha512": "dfab66018e66b3e9811b30ef071019a7191bf8ad39716d2cd802b0afee2dc629ccdff55fc169262a7ef23b9cdd110fc5f5f601f83ca2214ee13d61f67ff474e1",
+          "sha256": "fde914868c27164393e224a571d761586e296a3f1c9594e20255b56ee92626ef",
+          "sha1": "7fd9a350aac443929c44417979f6fc1f1940ba29",
+          "md5": "7cb43091f6ec335b27b9d37d9767e2d0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "minecraft-cursor-fabric-api-3.9.2+1.21.6-fabric.1.jar",
+          "url": "minecraft-cursor-fabric-api-3.9.2+1.21.6-fabric.1.jar",
+          "size": 13483,
+          "sha512": "dfab66018e66b3e9811b30ef071019a7191bf8ad39716d2cd802b0afee2dc629ccdff55fc169262a7ef23b9cdd110fc5f5f601f83ca2214ee13d61f67ff474e1",
+          "sha256": "fde914868c27164393e224a571d761586e296a3f1c9594e20255b56ee92626ef",
+          "sha1": "7fd9a350aac443929c44417979f6fc1f1940ba29",
+          "md5": "7cb43091f6ec335b27b9d37d9767e2d0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "minecraft-cursor-fabric-api-3.9.2+1.21.6-fabric.1-sources.jar",
+          "url": "minecraft-cursor-fabric-api-3.9.2+1.21.6-fabric.1-sources.jar",
+          "size": 10796,
+          "sha512": "566cae2d6b5da7206e898fafe2eff08abe47783792c48a2733b4b199c7305ba74984f5efda7810656390949c6407c207e445b0853949d3e24cc814b1f629766b",
+          "sha256": "417123e4e9f87607198c3037e8e46e1f8a296ab61c6d10ba1564d98a1643b6e1",
+          "sha1": "d5b16e9c66b6bd057ba05f6ea83019749dc3f1fd",
+          "md5": "7b47cd1342f31cb54e8c44b96eaf763c"
+        }
+      ]
+    }
+  ]
+}
