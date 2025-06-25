@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.fishstiz",
+    "module": "minecraft-cursor-neoforge",
+    "version": "3.9.2+1.21.1-nf.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.fishstiz",
+          "module": "minecraft-cursor-common-api",
+          "version": {
+            "requires": "3.9.2+1.21.1-nf.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "minecraft-cursor-neoforge-3.9.2+1.21.1-nf.1.jar",
+          "url": "minecraft-cursor-neoforge-3.9.2+1.21.1-nf.1.jar",
+          "size": 259701,
+          "sha512": "7ce3da92152eb6c8d1118a77635ca2a08e86effd55c1529edf051f7e41230456f0427d0bf0d55e79408db933f57f7968bec40de2bf23f9f64d11b7b818dbff50",
+          "sha256": "4e3b90d022ce5b033c63529522185dc67e0b74e0b8476912084f94aba8200820",
+          "sha1": "b7b164cb0d6352b29666eb44207fffacbc3176eb",
+          "md5": "20eda704c73374c9f26e706952c827f9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.fishstiz",
+          "module": "minecraft-cursor-common-api",
+          "version": {
+            "requires": "3.9.2+1.21.1-nf.1"
+          }
+        },
+        {
+          "group": "dev.ftb.mods",
+          "module": "ftb-library-neoforge",
+          "version": {
+            "requires": "2101.1.4"
+          }
+        },
+        {
+          "group": "dev.ftb.mods",
+          "module": "ftb-quests-neoforge",
+          "version": {
+            "requires": "2101.1.0"
+          }
+        },
+        {
+          "group": "dev.ftb.mods",
+          "module": "ftb-teams-neoforge",
+          "version": {
+            "requires": "2101.1.0"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-neoforge",
+          "version": {
+            "requires": "13.0.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "minecraft-cursor-neoforge-3.9.2+1.21.1-nf.1.jar",
+          "url": "minecraft-cursor-neoforge-3.9.2+1.21.1-nf.1.jar",
+          "size": 259701,
+          "sha512": "7ce3da92152eb6c8d1118a77635ca2a08e86effd55c1529edf051f7e41230456f0427d0bf0d55e79408db933f57f7968bec40de2bf23f9f64d11b7b818dbff50",
+          "sha256": "4e3b90d022ce5b033c63529522185dc67e0b74e0b8476912084f94aba8200820",
+          "sha1": "b7b164cb0d6352b29666eb44207fffacbc3176eb",
+          "md5": "20eda704c73374c9f26e706952c827f9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "minecraft-cursor-neoforge-3.9.2+1.21.1-nf.1-sources.jar",
+          "url": "minecraft-cursor-neoforge-3.9.2+1.21.1-nf.1-sources.jar",
+          "size": 117999,
+          "sha512": "4dad323ac8cb1817ff03464e978dcf221a05bfd9ee5c594537168102d082c30f8a84ae242b5707f6ae5594b5ad00e9c9f449b2abce4b9f01667b8d12c2c66dde",
+          "sha256": "70dc1244d541410717a2eb3bba48dae3dc9d4c67964655061442724ab81b3d12",
+          "sha1": "ca16d9717bf00ad6fd15a8511b8ca233a70ac637",
+          "md5": "883fc106f355085ee480294eab0c2383"
+        }
+      ]
+    }
+  ]
+}
