@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.fishstiz",
+    "module": "minecraft-cursor-common-api",
+    "version": "3.10.0+1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "minecraft-cursor-common-api-3.10.0+1.20.1-sources.jar",
+          "url": "minecraft-cursor-common-api-3.10.0+1.20.1-sources.jar",
+          "size": 9055,
+          "sha512": "af1670bbf6376575290ed43a7ecedd095a648028e2b8a6529dd16bd2ec6c81cdc2d98c1407b3f47033e45466868c84185b4745e491d4d5beb551735fc542a87e",
+          "sha256": "1348109c6f94f33d70a64f60f5e46ce501091d1938718579d95e34dd17c558de",
+          "sha1": "def274e6c980e78dd3b512091d6a472c3fae2504",
+          "md5": "b0732102729545166ad7a9e1490546bc"
+        }
+      ]
+    },
+    {
+      "name": "reobfRuntimeElements",
+      "attributes": {
+        "net.neoforged.moddevgradle.legacy.minecraft_mappings": "srg",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "minecraft-cursor-common-api-3.10.0+1.20.1.jar",
+          "url": "minecraft-cursor-common-api-3.10.0+1.20.1.jar",
+          "size": 13168,
+          "sha512": "ca15a0e7f2566d1a97f4735ae19a3f7e656972ccc78e36b21239ca78207ae99d19af45040ef7dc37aeaff18d591a2dd2c11ce2d26fb05a72dfff7890056219c4",
+          "sha256": "cacf38175575003d1a526c2a9799f665b46e8bf07153acf05344b3f82cb9b32f",
+          "sha1": "0bbe864587e5671259dc203cc8ca37027ce639b6",
+          "md5": "6e4a66a949875066a36244fa2a175cd2"
+        }
+      ]
+    },
+    {
+      "name": "reobfApiElements",
+      "attributes": {
+        "net.neoforged.moddevgradle.legacy.minecraft_mappings": "srg",
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "minecraft-cursor-common-api-3.10.0+1.20.1.jar",
+          "url": "minecraft-cursor-common-api-3.10.0+1.20.1.jar",
+          "size": 13168,
+          "sha512": "ca15a0e7f2566d1a97f4735ae19a3f7e656972ccc78e36b21239ca78207ae99d19af45040ef7dc37aeaff18d591a2dd2c11ce2d26fb05a72dfff7890056219c4",
+          "sha256": "cacf38175575003d1a526c2a9799f665b46e8bf07153acf05344b3f82cb9b32f",
+          "sha1": "0bbe864587e5671259dc203cc8ca37027ce639b6",
+          "md5": "6e4a66a949875066a36244fa2a175cd2"
+        }
+      ]
+    }
+  ]
+}
