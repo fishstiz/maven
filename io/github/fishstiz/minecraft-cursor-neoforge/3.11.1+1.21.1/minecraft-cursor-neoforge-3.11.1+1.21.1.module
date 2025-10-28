@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.fishstiz",
+    "module": "minecraft-cursor-neoforge",
+    "version": "3.11.1+1.21.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.fishstiz",
+          "module": "minecraft-cursor-common-api",
+          "version": {
+            "requires": "3.11.1+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "minecraft-cursor-neoforge-3.11.1+1.21.1.jar",
+          "url": "minecraft-cursor-neoforge-3.11.1+1.21.1.jar",
+          "size": 283851,
+          "sha512": "2a5eb06f80596ed881b1b2c7357cb5483094652e8dba08d6480d48244e39439e4cb936cf713a6bbfedd0e6dc4afe5a9b535fe872de169bf7352a800069d628d9",
+          "sha256": "e1451ecd894140945325baee7c206d24205d3be2d7623ec4ff99f6cf9f3291e9",
+          "sha1": "34ec41ee9b33161f00e81f2e22bf4402b9014146",
+          "md5": "a5cdde034b767d83f1f4254e729b719c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.fishstiz",
+          "module": "minecraft-cursor-common-api",
+          "version": {
+            "requires": "3.11.1+1.21.1"
+          }
+        },
+        {
+          "group": "dev.ftb.mods",
+          "module": "ftb-library-neoforge",
+          "version": {
+            "requires": "2101.1.4"
+          }
+        },
+        {
+          "group": "dev.ftb.mods",
+          "module": "ftb-quests-neoforge",
+          "version": {
+            "requires": "2101.1.0"
+          }
+        },
+        {
+          "group": "dev.ftb.mods",
+          "module": "ftb-teams-neoforge",
+          "version": {
+            "requires": "2101.1.0"
+          }
+        },
+        {
+          "group": "dev.architectury",
+          "module": "architectury-neoforge",
+          "version": {
+            "requires": "13.0.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "minecraft-cursor-neoforge-3.11.1+1.21.1.jar",
+          "url": "minecraft-cursor-neoforge-3.11.1+1.21.1.jar",
+          "size": 283851,
+          "sha512": "2a5eb06f80596ed881b1b2c7357cb5483094652e8dba08d6480d48244e39439e4cb936cf713a6bbfedd0e6dc4afe5a9b535fe872de169bf7352a800069d628d9",
+          "sha256": "e1451ecd894140945325baee7c206d24205d3be2d7623ec4ff99f6cf9f3291e9",
+          "sha1": "34ec41ee9b33161f00e81f2e22bf4402b9014146",
+          "md5": "a5cdde034b767d83f1f4254e729b719c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "minecraft-cursor-neoforge-3.11.1+1.21.1-sources.jar",
+          "url": "minecraft-cursor-neoforge-3.11.1+1.21.1-sources.jar",
+          "size": 134706,
+          "sha512": "2a2a407a4652edb3fd2678afc34ce8b3d172ed33e14411093731dd33849397d91762e20f87a10b1675ba4c05c0b0712c2e42f8f4c8c6b5961b60313fdfb0e2a3",
+          "sha256": "4d6a8869d80692a64bc01fbe79c80e1d27095de07b951094169efe51cfdb8b1e",
+          "sha1": "ff125bf866934be02d51bc3358316f1a07cbed7f",
+          "md5": "8ed721c060c90639ffca078b260cd96c"
+        }
+      ]
+    }
+  ]
+}
