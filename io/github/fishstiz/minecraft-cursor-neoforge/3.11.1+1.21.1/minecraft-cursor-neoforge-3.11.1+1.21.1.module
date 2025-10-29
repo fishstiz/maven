@@ -37,10 +37,10 @@
           "name": "minecraft-cursor-neoforge-3.11.1+1.21.1.jar",
           "url": "minecraft-cursor-neoforge-3.11.1+1.21.1.jar",
           "size": 283851,
-          "sha512": "2a5eb06f80596ed881b1b2c7357cb5483094652e8dba08d6480d48244e39439e4cb936cf713a6bbfedd0e6dc4afe5a9b535fe872de169bf7352a800069d628d9",
-          "sha256": "e1451ecd894140945325baee7c206d24205d3be2d7623ec4ff99f6cf9f3291e9",
-          "sha1": "34ec41ee9b33161f00e81f2e22bf4402b9014146",
-          "md5": "a5cdde034b767d83f1f4254e729b719c"
+          "sha512": "cc5107354f16fb4817c92a0afdba0ef0558ca4445d0ada59c8e6af35aab5a4c12839ddcdba1f6093b9e00262fe0f003ee305f148b6c03e7db7652e297dcfa29f",
+          "sha256": "da17b45479c327aa0edec79ae23f69cfc73c718c99aedbbc95952c9ca73b769a",
+          "sha1": "b5f6759198700f0f83747df478506d1307624701",
+          "md5": "6528bb8d714e5550ccf9d8f285446f83"
         }
       ]
     },
@@ -60,34 +60,6 @@
           "version": {
             "requires": "3.11.1+1.21.1"
           }
-        },
-        {
-          "group": "dev.ftb.mods",
-          "module": "ftb-library-neoforge",
-          "version": {
-            "requires": "2101.1.4"
-          }
-        },
-        {
-          "group": "dev.ftb.mods",
-          "module": "ftb-quests-neoforge",
-          "version": {
-            "requires": "2101.1.0"
-          }
-        },
-        {
-          "group": "dev.ftb.mods",
-          "module": "ftb-teams-neoforge",
-          "version": {
-            "requires": "2101.1.0"
-          }
-        },
-        {
-          "group": "dev.architectury",
-          "module": "architectury-neoforge",
-          "version": {
-            "requires": "13.0.8"
-          }
         }
       ],
       "files": [
@@ -95,10 +67,10 @@
           "name": "minecraft-cursor-neoforge-3.11.1+1.21.1.jar",
           "url": "minecraft-cursor-neoforge-3.11.1+1.21.1.jar",
           "size": 283851,
-          "sha512": "2a5eb06f80596ed881b1b2c7357cb5483094652e8dba08d6480d48244e39439e4cb936cf713a6bbfedd0e6dc4afe5a9b535fe872de169bf7352a800069d628d9",
-          "sha256": "e1451ecd894140945325baee7c206d24205d3be2d7623ec4ff99f6cf9f3291e9",
-          "sha1": "34ec41ee9b33161f00e81f2e22bf4402b9014146",
-          "md5": "a5cdde034b767d83f1f4254e729b719c"
+          "sha512": "cc5107354f16fb4817c92a0afdba0ef0558ca4445d0ada59c8e6af35aab5a4c12839ddcdba1f6093b9e00262fe0f003ee305f148b6c03e7db7652e297dcfa29f",
+          "sha256": "da17b45479c327aa0edec79ae23f69cfc73c718c99aedbbc95952c9ca73b769a",
+          "sha1": "b5f6759198700f0f83747df478506d1307624701",
+          "md5": "6528bb8d714e5550ccf9d8f285446f83"
         }
       ]
     },
@@ -115,10 +87,10 @@
           "name": "minecraft-cursor-neoforge-3.11.1+1.21.1-sources.jar",
           "url": "minecraft-cursor-neoforge-3.11.1+1.21.1-sources.jar",
           "size": 134706,
-          "sha512": "2a2a407a4652edb3fd2678afc34ce8b3d172ed33e14411093731dd33849397d91762e20f87a10b1675ba4c05c0b0712c2e42f8f4c8c6b5961b60313fdfb0e2a3",
-          "sha256": "4d6a8869d80692a64bc01fbe79c80e1d27095de07b951094169efe51cfdb8b1e",
-          "sha1": "ff125bf866934be02d51bc3358316f1a07cbed7f",
-          "md5": "8ed721c060c90639ffca078b260cd96c"
+          "sha512": "526ec7e5cb1cf0cfc261244b93c3874251c95c093a8c8b838401aa3082effc23d87440d8e5e0cd75c2f6b07efea69d6b3e1b19714ccfd5e67ecfcd123ab411ae",
+          "sha256": "d27d68fbf43ecc62b5a87ab83cc881c176d49349f445fbf87621518eff34aff8",
+          "sha1": "7bdbf95c6d1bd38e0292238d5093eecf2d43a3c0",
+          "md5": "03df36dae8f4c6015ddf6f02cdb6bab2"
         }
       ]
     }
