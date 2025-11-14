@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.fishstiz",
+    "module": "minecraft-cursor-common-api",
+    "version": "3.11.2+1.21.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.12.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "minecraft-cursor-common-api-3.11.2+1.21.1.jar",
+          "url": "minecraft-cursor-common-api-3.11.2+1.21.1.jar",
+          "size": 12725,
+          "sha512": "69f18f4237419d50321b98202f9cf7766d917b3b2caabb2855064814662fbe3236223d89973225e960b8b6091ace9ab9fcfb67ddf444e057fc2a5da5ffdc096b",
+          "sha256": "4964c33a45b3477c667c8c9910dbaeedbbbcec5a98efb5bdc29f8cf1ed9575fa",
+          "sha1": "5236e0807b972f478a07be9a7de12f2a24f5dd67",
+          "md5": "1b2cef07eaa07284201cacfb09b78e89"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "minecraft-cursor-common-api-3.11.2+1.21.1.jar",
+          "url": "minecraft-cursor-common-api-3.11.2+1.21.1.jar",
+          "size": 12725,
+          "sha512": "69f18f4237419d50321b98202f9cf7766d917b3b2caabb2855064814662fbe3236223d89973225e960b8b6091ace9ab9fcfb67ddf444e057fc2a5da5ffdc096b",
+          "sha256": "4964c33a45b3477c667c8c9910dbaeedbbbcec5a98efb5bdc29f8cf1ed9575fa",
+          "sha1": "5236e0807b972f478a07be9a7de12f2a24f5dd67",
+          "md5": "1b2cef07eaa07284201cacfb09b78e89"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "minecraft-cursor-common-api-3.11.2+1.21.1-sources.jar",
+          "url": "minecraft-cursor-common-api-3.11.2+1.21.1-sources.jar",
+          "size": 9055,
+          "sha512": "6a8154a8f93afe8a466994266edb336b1edad87e7b78735b91690678973ff6782caf243fc19e86b67c9c22589128b975670738f9844baf80fe7c3a5a7be91980",
+          "sha256": "c07d5fe39eff611dbe4a9491176e2403132d90562144ded6f4f2cbc6d165ecbb",
+          "sha1": "dc0af53764093366e1bc4dc6d746583f4ee4070e",
+          "md5": "7551c1ba6505df658cc49b88b5f5208b"
+        }
+      ]
+    }
+  ]
+}
