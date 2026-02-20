@@ -27,11 +27,11 @@
         {
           "name": "packed_packs-fabric-2.1.0+1.21.1.jar",
           "url": "packed_packs-fabric-2.1.0+1.21.1.jar",
-          "size": 597667,
-          "sha512": "643ae551c437d1a92cefec40d4e2ca660f3529a785b400da0db4673164c0ba63cb2c7ec3d6e0debfcf0edff8e7ac274ddd2393c40537b868c3bfd9614f81bfc1",
-          "sha256": "4187c06e82e665ca50a8be1378d47c18a028399641eb776f3db479c4b9070f1d",
-          "sha1": "17edb429bcdafb39cd20ab2c732f9d1918f7558e",
-          "md5": "f9246dd082eb2d6f7a55015f66cb20f6"
+          "size": 597663,
+          "sha512": "411c2283d7cf4da3c5b4eca1ebef8b552b7150ded66f952a71892e39abd7d04f69a1bb6037da2f7f22540b1a5b959833cfdf4e001ccc99ec7fc0f4ee04b6f29b",
+          "sha256": "853626cb9e5755e8c80ac4e49e36823500788b939bd1f0d8ad4f75719d78a483",
+          "sha1": "c78835f31070c38ae6d5999b38f7b56a93710e62",
+          "md5": "593c0b9e8fa3f684081733e8ef4f8d26"
         }
       ]
     },
@@ -64,11 +64,11 @@
         {
           "name": "packed_packs-fabric-2.1.0+1.21.1.jar",
           "url": "packed_packs-fabric-2.1.0+1.21.1.jar",
-          "size": 597667,
-          "sha512": "643ae551c437d1a92cefec40d4e2ca660f3529a785b400da0db4673164c0ba63cb2c7ec3d6e0debfcf0edff8e7ac274ddd2393c40537b868c3bfd9614f81bfc1",
-          "sha256": "4187c06e82e665ca50a8be1378d47c18a028399641eb776f3db479c4b9070f1d",
-          "sha1": "17edb429bcdafb39cd20ab2c732f9d1918f7558e",
-          "md5": "f9246dd082eb2d6f7a55015f66cb20f6"
+          "size": 597663,
+          "sha512": "411c2283d7cf4da3c5b4eca1ebef8b552b7150ded66f952a71892e39abd7d04f69a1bb6037da2f7f22540b1a5b959833cfdf4e001ccc99ec7fc0f4ee04b6f29b",
+          "sha256": "853626cb9e5755e8c80ac4e49e36823500788b939bd1f0d8ad4f75719d78a483",
+          "sha1": "c78835f31070c38ae6d5999b38f7b56a93710e62",
+          "md5": "593c0b9e8fa3f684081733e8ef4f8d26"
         }
       ]
     },
@@ -84,11 +84,11 @@
         {
           "name": "packed_packs-fabric-2.1.0+1.21.1-sources.jar",
           "url": "packed_packs-fabric-2.1.0+1.21.1-sources.jar",
-          "size": 205186,
-          "sha512": "31b2dbd9949ab2ad6f9823c2fbd4ec1de1f4dc6004b0d6ac582c0f0199a279ed37cd35d1dc44928958cfde706cb722f8dc1989fe2b2566eacc0f8b162360a598",
-          "sha256": "fe49fd2669fc1b33bf9a3edce92ce2f2c089e1bf305d61b3bbb87a153579b33d",
-          "sha1": "eaa865208a6705ebff9d0d0178acc49bad13bcc4",
-          "md5": "8aa70ec6f23f7d0d86e366c5eaa42d0c"
+          "size": 205179,
+          "sha512": "d5182387c73fa54d1cb5574b6eb532210bb32ad6092e6193ab036b0cfe932524893e9c8c5885a52fee6bcc4b977cca5f3102fb304599c4dac4dbeb7a49c3e11a",
+          "sha256": "5673af849fa18ad9b47df6c6bea684f4a20065f43b241c3b535dcdbb4cf563bf",
+          "sha1": "00891ca0d9006c113aa78d294a63c8045e64d5db",
+          "md5": "69f6e9682b940a95168fc187a72aa2c8"
         }
       ]
     }
