@@ -85,10 +85,10 @@
           "name": "fidgetz-fabric-0.1.0+1.21.1-sources.jar",
           "url": "fidgetz-fabric-0.1.0+1.21.1-sources.jar",
           "size": 80879,
-          "sha512": "6bb723db285d0b82d9b40e4bfbc6daf002a5b5ed9f6f4424d2fbaa421c6c9129c4de023ee05b5086ef75f40930ec80002bd129ac397c15d517ed9059f6234072",
-          "sha256": "3aa2bf07a4b019cf6c8c4fccab025db6b6595823a115ff24571b680239740edb",
-          "sha1": "cad31cc9315648261c0fc87a734d50a7bf840020",
-          "md5": "0461df2152c9920e3ed6105a9043d51a"
+          "sha512": "8101601806e76ae6efa3d7d083629699bacaaa115b28ab6da6013bd119bfd7d880933b3a48609e5fd250e7f03573dc5f2a23f5d198b6e7302a00393d1e5f4977",
+          "sha256": "44f722441f0d22653ea3d09d31671f75799f96d2350512c5d7005a844e9b60bd",
+          "sha1": "5a1dfdf1a0fc6dc12713bd73b71d938cc13a31cb",
+          "md5": "1e63283d087629ae2c12248699e81b05"
         }
       ]
     }

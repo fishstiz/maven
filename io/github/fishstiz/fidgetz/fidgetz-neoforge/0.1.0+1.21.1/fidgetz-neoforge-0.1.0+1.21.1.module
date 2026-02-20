@@ -28,10 +28,10 @@
           "name": "fidgetz-neoforge-0.1.0+1.21.1.jar",
           "url": "fidgetz-neoforge-0.1.0+1.21.1.jar",
           "size": 179591,
-          "sha512": "08a5bbea638e0e09831f8363fc657fd741b2bc9df300d3fa638f5e5afcf535bd036eed61d8bf111f088e7b86dba7876a5144780f7b1a75b8572735d8fe2a1ef1",
-          "sha256": "50734de40948daf05f9dbc7c653c490507fa6f5ef6618522412d2b5a6b3159d0",
-          "sha1": "351eeab3d87bc3382d7e1396a436600fd37f8c71",
-          "md5": "5ae01e19865894982bf84115f042e3e3"
+          "sha512": "5ccc105ac56509ee7784bf9a8cb54e448642c7add5f84aa0df2cd3ef439355e883f6273b67d4de1ba36191ffde10185fadf2fd014252744235b87f9c24affb6c",
+          "sha256": "068e25a2c18da7754c00f2715227fa18fcc582c7af7a65293237331695ad4a81",
+          "sha1": "ea0f68c7ebddb944e87d3ed1aedb2725c724c21e",
+          "md5": "1573dd5420345dfda03dfbb379c96ceb"
         }
       ]
     },
@@ -49,10 +49,10 @@
           "name": "fidgetz-neoforge-0.1.0+1.21.1.jar",
           "url": "fidgetz-neoforge-0.1.0+1.21.1.jar",
           "size": 179591,
-          "sha512": "08a5bbea638e0e09831f8363fc657fd741b2bc9df300d3fa638f5e5afcf535bd036eed61d8bf111f088e7b86dba7876a5144780f7b1a75b8572735d8fe2a1ef1",
-          "sha256": "50734de40948daf05f9dbc7c653c490507fa6f5ef6618522412d2b5a6b3159d0",
-          "sha1": "351eeab3d87bc3382d7e1396a436600fd37f8c71",
-          "md5": "5ae01e19865894982bf84115f042e3e3"
+          "sha512": "5ccc105ac56509ee7784bf9a8cb54e448642c7add5f84aa0df2cd3ef439355e883f6273b67d4de1ba36191ffde10185fadf2fd014252744235b87f9c24affb6c",
+          "sha256": "068e25a2c18da7754c00f2715227fa18fcc582c7af7a65293237331695ad4a81",
+          "sha1": "ea0f68c7ebddb944e87d3ed1aedb2725c724c21e",
+          "md5": "1573dd5420345dfda03dfbb379c96ceb"
         }
       ]
     },
@@ -69,10 +69,10 @@
           "name": "fidgetz-neoforge-0.1.0+1.21.1-sources.jar",
           "url": "fidgetz-neoforge-0.1.0+1.21.1-sources.jar",
           "size": 73159,
-          "sha512": "31d0428372cd7fc46e4c98d65d3bb6741beab44296b2686d8214a7c042a6242e2d3c84f7c3d78203451191e058e5cf021b5899709e919a44834217bc2a2d0d85",
-          "sha256": "71bedfc794876672dfeab28470480a59ec138e758b7fc1285079df3757935bb1",
-          "sha1": "3e4d9173bb65bebc3903de19d6a826b205c5c041",
-          "md5": "3ff34d5b0eb394b31fbc4331081b977b"
+          "sha512": "00b1690a1c2f6bc872c3f7fedf40e28c703392d317256198fe3250b2eb526b7e8267c62ae7d9a8ea1cb1b982e8fc6aef1adda0dc7dd8b49f259c5a15fc9f9fac",
+          "sha256": "8d62e639d07416ad6bea851867c5cc6d4bcaf14c7a0a5a03257ee0c2c4d79dca",
+          "sha1": "b5bb64237181c2884bc1bcf1ce259c3904de8400",
+          "md5": "c33db8c437f47e8c041ce0fb146c23dd"
         }
       ]
     }
