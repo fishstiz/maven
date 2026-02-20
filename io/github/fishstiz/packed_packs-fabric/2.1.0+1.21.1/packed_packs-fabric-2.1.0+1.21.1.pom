@@ -12,12 +12,6 @@
   <version>2.1.0+1.21.1</version>
   <dependencies>
     <dependency>
-      <groupId>io.github.fishstiz.fidgetz</groupId>
-      <artifactId>fabric</artifactId>
-      <version>0.1.0+1.21.1</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>net.fabricmc</groupId>
       <artifactId>fabric-loader</artifactId>
       <version>0.16.10</version>
