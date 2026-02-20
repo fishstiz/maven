@@ -26,7 +26,7 @@
       "dependencies": [
         {
           "group": "io.github.fishstiz.fidgetz",
-          "module": "common",
+          "module": "fidgetz-common",
           "version": {
             "requires": "0.1.0+1.21.1"
           }

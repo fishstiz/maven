@@ -23,15 +23,24 @@
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
+      "dependencies": [
+        {
+          "group": "io.github.fishstiz.fidgetz",
+          "module": "fidgetz-neoforge",
+          "version": {
+            "requires": "0.1.0+1.21.1"
+          }
+        }
+      ],
       "files": [
         {
           "name": "packed_packs-neoforge-2.1.0+1.21.1.jar",
           "url": "packed_packs-neoforge-2.1.0+1.21.1.jar",
-          "size": 575221,
-          "sha512": "c410c39d26d90540fa969c110e9a6c6a78daf8efdb26caa154b60656da802e3ea17f4837f25f7933b23bb98b9dc08a1019d19d0c245d507a58355b8e0a6d9d63",
-          "sha256": "af33d36852078da4af519f03272433459d2436bddb5d8e64392e2982dabcae1a",
-          "sha1": "f77db035a6ebb0c9ce4826aa4ca47ffa093d287e",
-          "md5": "a769b45b5c5d315133910aeac9867599"
+          "size": 575240,
+          "sha512": "e232d4caf840dbdbf618564c9748ae5c5eee076bca536d7c8ef20e50c6845327c7b1071c8653814f0cafbd0e1172f2bdcbce4c0f9743026584f87600a04c4e62",
+          "sha256": "d9417305c98b0f0b2abad9e0a24bf4c5279341fa7d8b60fc60b370e94c0088ab",
+          "sha1": "3b315697e4269d4589993fc9499f30560f00b61e",
+          "md5": "18d2848469b2a01781a4d819d09c82f9"
         }
       ]
     },
@@ -44,15 +53,24 @@
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime"
       },
+      "dependencies": [
+        {
+          "group": "io.github.fishstiz.fidgetz",
+          "module": "fidgetz-neoforge",
+          "version": {
+            "requires": "0.1.0+1.21.1"
+          }
+        }
+      ],
       "files": [
         {
           "name": "packed_packs-neoforge-2.1.0+1.21.1.jar",
           "url": "packed_packs-neoforge-2.1.0+1.21.1.jar",
-          "size": 575221,
-          "sha512": "c410c39d26d90540fa969c110e9a6c6a78daf8efdb26caa154b60656da802e3ea17f4837f25f7933b23bb98b9dc08a1019d19d0c245d507a58355b8e0a6d9d63",
-          "sha256": "af33d36852078da4af519f03272433459d2436bddb5d8e64392e2982dabcae1a",
-          "sha1": "f77db035a6ebb0c9ce4826aa4ca47ffa093d287e",
-          "md5": "a769b45b5c5d315133910aeac9867599"
+          "size": 575240,
+          "sha512": "e232d4caf840dbdbf618564c9748ae5c5eee076bca536d7c8ef20e50c6845327c7b1071c8653814f0cafbd0e1172f2bdcbce4c0f9743026584f87600a04c4e62",
+          "sha256": "d9417305c98b0f0b2abad9e0a24bf4c5279341fa7d8b60fc60b370e94c0088ab",
+          "sha1": "3b315697e4269d4589993fc9499f30560f00b61e",
+          "md5": "18d2848469b2a01781a4d819d09c82f9"
         }
       ]
     },
@@ -68,11 +86,11 @@
         {
           "name": "packed_packs-neoforge-2.1.0+1.21.1-sources.jar",
           "url": "packed_packs-neoforge-2.1.0+1.21.1-sources.jar",
-          "size": 178895,
-          "sha512": "38652aa2adf2cf0b62519cb8e9a3bfc866d19284181e72cf6d69f413014ca2f06cb7764d2859645de8feb4624c0b7a1d0e2f8bfb3e61dd44eedf3b0e21378be2",
-          "sha256": "f06628db46a51e93e7dbc983e5ff1be4a8c796739a79e5ae00fd8dc9bd6b0589",
-          "sha1": "a528cd54014d82784bbb238643efc8bcae5111f4",
-          "md5": "37cccf363f6cfb509636b839a5c40904"
+          "size": 178865,
+          "sha512": "85f2b2e13a782db816902ea546122a28bbbb50ddb399704aad9a7758e3517cbb24895231b78549b2dd7773f2296c96b6a3f56173e98a40e8d9a1d7864425022a",
+          "sha256": "6733ab46356cf0c2f4ae9ce4de1b4ac113b2852c8881c3766754024225817b4b",
+          "sha1": "0dfa32c4af3e5061a59f23fb8cbd7cf472e78ccf",
+          "md5": "0a81cd6e56741f0b9c25b8eac8e57d05"
         }
       ]
     }

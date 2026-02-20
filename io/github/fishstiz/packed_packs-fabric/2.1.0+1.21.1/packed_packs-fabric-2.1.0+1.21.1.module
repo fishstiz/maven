@@ -23,15 +23,24 @@
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
+      "dependencies": [
+        {
+          "group": "io.github.fishstiz.fidgetz",
+          "module": "fidgetz-fabric",
+          "version": {
+            "requires": "0.1.0+1.21.1"
+          }
+        }
+      ],
       "files": [
         {
           "name": "packed_packs-fabric-2.1.0+1.21.1.jar",
           "url": "packed_packs-fabric-2.1.0+1.21.1.jar",
-          "size": 597663,
-          "sha512": "411c2283d7cf4da3c5b4eca1ebef8b552b7150ded66f952a71892e39abd7d04f69a1bb6037da2f7f22540b1a5b959833cfdf4e001ccc99ec7fc0f4ee04b6f29b",
-          "sha256": "853626cb9e5755e8c80ac4e49e36823500788b939bd1f0d8ad4f75719d78a483",
-          "sha1": "c78835f31070c38ae6d5999b38f7b56a93710e62",
-          "md5": "593c0b9e8fa3f684081733e8ef4f8d26"
+          "size": 597713,
+          "sha512": "fed36d1a3abc07439824dcac71469080a75211d771b6b0165c041dd65bcb125bd2560c094db7a71c263d5c5fe4c0d2507b0703bc8861970f5dc8c87b9b463707",
+          "sha256": "a69d7e1604dd491a512f41f4cafa5005bd1ac35bc2c736e812d8ab58fdd9b33a",
+          "sha1": "e9aa4a7c2473f99fd619d4d596f35b4273d297f2",
+          "md5": "8eddad6bbfc9598700abec13b853e23a"
         }
       ]
     },
@@ -45,6 +54,13 @@
         "org.gradle.usage": "java-runtime"
       },
       "dependencies": [
+        {
+          "group": "io.github.fishstiz.fidgetz",
+          "module": "fidgetz-fabric",
+          "version": {
+            "requires": "0.1.0+1.21.1"
+          }
+        },
         {
           "group": "net.fabricmc",
           "module": "fabric-loader",
@@ -64,11 +80,11 @@
         {
           "name": "packed_packs-fabric-2.1.0+1.21.1.jar",
           "url": "packed_packs-fabric-2.1.0+1.21.1.jar",
-          "size": 597663,
-          "sha512": "411c2283d7cf4da3c5b4eca1ebef8b552b7150ded66f952a71892e39abd7d04f69a1bb6037da2f7f22540b1a5b959833cfdf4e001ccc99ec7fc0f4ee04b6f29b",
-          "sha256": "853626cb9e5755e8c80ac4e49e36823500788b939bd1f0d8ad4f75719d78a483",
-          "sha1": "c78835f31070c38ae6d5999b38f7b56a93710e62",
-          "md5": "593c0b9e8fa3f684081733e8ef4f8d26"
+          "size": 597713,
+          "sha512": "fed36d1a3abc07439824dcac71469080a75211d771b6b0165c041dd65bcb125bd2560c094db7a71c263d5c5fe4c0d2507b0703bc8861970f5dc8c87b9b463707",
+          "sha256": "a69d7e1604dd491a512f41f4cafa5005bd1ac35bc2c736e812d8ab58fdd9b33a",
+          "sha1": "e9aa4a7c2473f99fd619d4d596f35b4273d297f2",
+          "md5": "8eddad6bbfc9598700abec13b853e23a"
         }
       ]
     },
@@ -84,11 +100,11 @@
         {
           "name": "packed_packs-fabric-2.1.0+1.21.1-sources.jar",
           "url": "packed_packs-fabric-2.1.0+1.21.1-sources.jar",
-          "size": 205179,
-          "sha512": "d5182387c73fa54d1cb5574b6eb532210bb32ad6092e6193ab036b0cfe932524893e9c8c5885a52fee6bcc4b977cca5f3102fb304599c4dac4dbeb7a49c3e11a",
-          "sha256": "5673af849fa18ad9b47df6c6bea684f4a20065f43b241c3b535dcdbb4cf563bf",
-          "sha1": "00891ca0d9006c113aa78d294a63c8045e64d5db",
-          "md5": "69f6e9682b940a95168fc187a72aa2c8"
+          "size": 205186,
+          "sha512": "fa4a36e5276f1b2be9458de342c17fb6f45534c2e16d6c016df44c76938094d244a21a0be1597cf20f2a5384c5e0e2275ca71a835edef0ee48651b94ba6f9e02",
+          "sha256": "e662e0fe4e378093faeaf8458da342028a8de27b8a7f5151dd4f7d34700755df",
+          "sha1": "2db833c1c958f2dfe46d8376e02e0b5074741765",
+          "md5": "c9c496079d267409cf14028c753e0f1a"
         }
       ]
     }

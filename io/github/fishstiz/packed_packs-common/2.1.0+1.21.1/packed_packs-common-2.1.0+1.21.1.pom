@@ -13,7 +13,7 @@
   <dependencies>
     <dependency>
       <groupId>io.github.fishstiz.fidgetz</groupId>
-      <artifactId>common</artifactId>
+      <artifactId>fidgetz-common</artifactId>
       <version>0.1.0+1.21.1</version>
       <scope>compile</scope>
     </dependency>
