@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.fishstiz.packed_packs",
+    "module": "packed_packs-common",
+    "version": "2.1.0-alpha.11+1.21.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.fishstiz.fidgetz",
+          "module": "fidgetz-common",
+          "version": {
+            "requires": "0.2.0.alpha.3+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fishstiz.packed_packs.api",
+          "module": "packed_packs_api-common",
+          "version": {
+            "requires": "2.1.0-alpha.11+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "packed_packs-common-2.1.0-alpha.11+1.21.1.jar",
+          "url": "packed_packs-common-2.1.0-alpha.11+1.21.1.jar",
+          "size": 469406,
+          "sha512": "37c4ac711000e37063280136d185ec1ed3cffe24936978e7f71c2996acc65f053ca5245166d7f568d14125dac8cfd9f91810191f8e1f296be61a860e70b45f07",
+          "sha256": "66362bd0f4ea30760149181a1fb112922ec57a4f16f4de17eaf65192e8d66e00",
+          "sha1": "481f5fdc4823f1b5f87bc3b0d6b5cdad764fa768",
+          "md5": "d6b5cdbec5cd9c7cab7c546766c8400b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "packed_packs-common-2.1.0-alpha.11+1.21.1.jar",
+          "url": "packed_packs-common-2.1.0-alpha.11+1.21.1.jar",
+          "size": 469406,
+          "sha512": "37c4ac711000e37063280136d185ec1ed3cffe24936978e7f71c2996acc65f053ca5245166d7f568d14125dac8cfd9f91810191f8e1f296be61a860e70b45f07",
+          "sha256": "66362bd0f4ea30760149181a1fb112922ec57a4f16f4de17eaf65192e8d66e00",
+          "sha1": "481f5fdc4823f1b5f87bc3b0d6b5cdad764fa768",
+          "md5": "d6b5cdbec5cd9c7cab7c546766c8400b"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "packed_packs-common-2.1.0-alpha.11+1.21.1-sources.jar",
+          "url": "packed_packs-common-2.1.0-alpha.11+1.21.1-sources.jar",
+          "size": 176240,
+          "sha512": "ff76ff26e8dac1200494634be2f72c96bc9bcfc4f78542e37a04e38056a7436c72b59699400c0558ee8d4ceec418a590f9f82dd15e010d2bd247e3c2ff23412b",
+          "sha256": "f2bd0668e5153ffcbcaf9d59956e5fe346b28e4eb0c8ab5079a4f2dfd8e5f4e2",
+          "sha1": "f1d4804948365c3a71d8b76e920df467e96fdee4",
+          "md5": "da4cc71e5ded93f9f9020b62b4d7e80a"
+        }
+      ]
+    }
+  ]
+}
