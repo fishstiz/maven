@@ -3,15 +3,16 @@
   <groupId>io.github.fishstiz.fidgetz</groupId>
   <artifactId>fidgetz-fabric</artifactId>
   <versioning>
-    <latest>0.2.0+1.21.9</latest>
-    <release>0.2.0+1.21.9</release>
+    <latest>0.2.0+1.21.11</latest>
+    <release>0.2.0+1.21.11</release>
     <versions>
       <version>0.2.0+1.21.1</version>
       <version>0.2.0+1.21.4</version>
       <version>0.2.0+1.21.5</version>
       <version>0.2.0+1.21.6</version>
       <version>0.2.0+1.21.9</version>
+      <version>0.2.0+1.21.11</version>
     </versions>
-    <lastUpdated>20260319171153</lastUpdated>
+    <lastUpdated>20260319171806</lastUpdated>
   </versioning>
 </metadata>
