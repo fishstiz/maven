@@ -27,11 +27,11 @@
         {
           "name": "fidgetz-fabric-0.2.0+26.1.jar",
           "url": "fidgetz-fabric-0.2.0+26.1.jar",
-          "size": 181664,
-          "sha512": "30442053cf71334428c1933e2f65cf5bcb0ea0e25d2019f17d5602eeef3269a15954185064692a5c24d01a6aafaa5337fe6bdb725f1d2d217b196c85620e3939",
-          "sha256": "0722ae336d6c2b9e79da5c01329c7bae5cc3c464086dc31fce448f74a24670c2",
-          "sha1": "4ffe9b6e2756a6300feb82f0aa9be420f8a014a4",
-          "md5": "7912adb2cb5ce0793682b817eebc387b"
+          "size": 181661,
+          "sha512": "e681bedd17821a9a1e3c2310dab5de62a02d7ebbbea1ac61d4423da1745946e7a46b823f02fdde77d562e3f604e155d1d3f626f040956aa2cbb6773bd9790759",
+          "sha256": "eb329f0e03c3e4a272d926d240bfd80625357034144e56d457cdd3b722c20cc7",
+          "sha1": "7b5e503a20213cd5deccf6ab1bf5fadff0e97cf2",
+          "md5": "de0a1c30f251c5851bebcdaf40ecb30a"
         }
       ]
     },
@@ -64,11 +64,11 @@
         {
           "name": "fidgetz-fabric-0.2.0+26.1.jar",
           "url": "fidgetz-fabric-0.2.0+26.1.jar",
-          "size": 181664,
-          "sha512": "30442053cf71334428c1933e2f65cf5bcb0ea0e25d2019f17d5602eeef3269a15954185064692a5c24d01a6aafaa5337fe6bdb725f1d2d217b196c85620e3939",
-          "sha256": "0722ae336d6c2b9e79da5c01329c7bae5cc3c464086dc31fce448f74a24670c2",
-          "sha1": "4ffe9b6e2756a6300feb82f0aa9be420f8a014a4",
-          "md5": "7912adb2cb5ce0793682b817eebc387b"
+          "size": 181661,
+          "sha512": "e681bedd17821a9a1e3c2310dab5de62a02d7ebbbea1ac61d4423da1745946e7a46b823f02fdde77d562e3f604e155d1d3f626f040956aa2cbb6773bd9790759",
+          "sha256": "eb329f0e03c3e4a272d926d240bfd80625357034144e56d457cdd3b722c20cc7",
+          "sha1": "7b5e503a20213cd5deccf6ab1bf5fadff0e97cf2",
+          "md5": "de0a1c30f251c5851bebcdaf40ecb30a"
         }
       ]
     },
