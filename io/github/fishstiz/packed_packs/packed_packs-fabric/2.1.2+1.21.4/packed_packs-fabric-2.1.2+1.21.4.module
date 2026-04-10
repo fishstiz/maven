@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.fishstiz.packed_packs",
+    "module": "packed_packs-fabric",
+    "version": "2.1.2+1.21.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.fishstiz.fidgetz",
+          "module": "fidgetz-fabric",
+          "version": {
+            "requires": "0.2.0+1.21.4"
+          }
+        },
+        {
+          "group": "io.github.fishstiz.packed_packs.api",
+          "module": "packed_packs_api-fabric",
+          "version": {
+            "requires": "2.1.2+1.21.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "packed_packs-fabric-2.1.2+1.21.4.jar",
+          "url": "packed_packs-fabric-2.1.2+1.21.4.jar",
+          "size": 681839,
+          "sha512": "7cece28d0650cdb919052a9fd30c2b4671f7f38337d96a4051eb2598b571b5370531917115cdd74ff959836cfc9cf177fad76ee3f64a1c797ce0f992b54b9e0f",
+          "sha256": "5117f87335c56d2bdc21df831ee334df33c8c2c1bde27f450b7d7fdea2c7706b",
+          "sha1": "ace5c363f77faa6c7b3b595fcf6c4e088925ce84",
+          "md5": "de34652fcfc0e589fdfe7fdbe7f3bb15"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.fishstiz.fidgetz",
+          "module": "fidgetz-fabric",
+          "version": {
+            "requires": "0.2.0+1.21.4"
+          }
+        },
+        {
+          "group": "io.github.fishstiz.packed_packs.api",
+          "module": "packed_packs_api-fabric",
+          "version": {
+            "requires": "2.1.2+1.21.4"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.14"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.119.2+1.21.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "packed_packs-fabric-2.1.2+1.21.4.jar",
+          "url": "packed_packs-fabric-2.1.2+1.21.4.jar",
+          "size": 681839,
+          "sha512": "7cece28d0650cdb919052a9fd30c2b4671f7f38337d96a4051eb2598b571b5370531917115cdd74ff959836cfc9cf177fad76ee3f64a1c797ce0f992b54b9e0f",
+          "sha256": "5117f87335c56d2bdc21df831ee334df33c8c2c1bde27f450b7d7fdea2c7706b",
+          "sha1": "ace5c363f77faa6c7b3b595fcf6c4e088925ce84",
+          "md5": "de34652fcfc0e589fdfe7fdbe7f3bb15"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "packed_packs-fabric-2.1.2+1.21.4-sources.jar",
+          "url": "packed_packs-fabric-2.1.2+1.21.4-sources.jar",
+          "size": 227858,
+          "sha512": "c46e7c8ea984e82f00b6b49302c1c7edd5152f9f9872ba240c2658e3fe1cfaafe51ee1474469972464f56410ec27215964574093b0cb082ef1f8d7127c66d858",
+          "sha256": "5398fdb39f11ee9acacb43e9275aaad37f7c05734c17ed4673c9e01c1e46f6f4",
+          "sha1": "bc894124b657a827367915f4773098ba55c4b102",
+          "md5": "a905b945cee88eb2e2289b0a69e33a80"
+        }
+      ]
+    }
+  ]
+}
