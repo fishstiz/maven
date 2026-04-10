@@ -3,8 +3,8 @@
   <groupId>io.github.fishstiz.packed_packs.api</groupId>
   <artifactId>packed_packs_api-fabric</artifactId>
   <versioning>
-    <latest>2.1.2+1.21.6</latest>
-    <release>2.1.2+1.21.6</release>
+    <latest>2.1.2+1.21.9</latest>
+    <release>2.1.2+1.21.9</release>
     <versions>
       <version>2.1.0+1.21.1</version>
       <version>2.1.0+1.21.4</version>
@@ -18,7 +18,8 @@
       <version>2.1.2+1.21.4</version>
       <version>2.1.2+1.21.5</version>
       <version>2.1.2+1.21.6</version>
+      <version>2.1.2+1.21.9</version>
     </versions>
-    <lastUpdated>20260410222133</lastUpdated>
+    <lastUpdated>20260410222438</lastUpdated>
   </versioning>
 </metadata>
