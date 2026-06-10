@@ -3,8 +3,8 @@
   <groupId>io.github.fishstiz.fidgetz</groupId>
   <artifactId>fidgetz-neoforge</artifactId>
   <versioning>
-    <latest>0.5.3+1.21.11</latest>
-    <release>0.5.3+1.21.11</release>
+    <latest>0.5.3+1.21.1</latest>
+    <release>0.5.3+1.21.1</release>
     <versions>
       <version>0.2.0+1.21.1</version>
       <version>0.2.0+1.21.4</version>
@@ -38,7 +38,8 @@
       <version>0.5.2-alpha.1+26.2</version>
       <version>0.5.3+26.1</version>
       <version>0.5.3+1.21.11</version>
+      <version>0.5.3+1.21.1</version>
     </versions>
-    <lastUpdated>20260610061318</lastUpdated>
+    <lastUpdated>20260610061539</lastUpdated>
   </versioning>
 </metadata>
