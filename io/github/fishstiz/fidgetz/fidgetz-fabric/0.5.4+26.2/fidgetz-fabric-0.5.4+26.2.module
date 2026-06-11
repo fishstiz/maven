@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.fishstiz.fidgetz",
+    "module": "fidgetz-fabric",
+    "version": "0.5.4+26.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "fidgetz-fabric-0.5.4+26.2.jar",
+          "url": "fidgetz-fabric-0.5.4+26.2.jar",
+          "size": 317232,
+          "sha512": "3c3acd3b740bea4ade32cbde362b8ccc2eeb58e1c6d4bd74ca0334e476ad7fadeecc2dd185d5fc44da99aec4ebe917715dc9926fa88b814a49080553ae046276",
+          "sha256": "fd5fccb2ef97bdf06a94a30c147767914c9125c0e265c5875f5b4d85ac08dfc5",
+          "sha1": "e9abf76ab12b49fc0f045c820d1da1613eff3f2c",
+          "md5": "903e9151941e5de59343d2dbb173473d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.18.4"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.152.0+26.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fidgetz-fabric-0.5.4+26.2.jar",
+          "url": "fidgetz-fabric-0.5.4+26.2.jar",
+          "size": 317232,
+          "sha512": "3c3acd3b740bea4ade32cbde362b8ccc2eeb58e1c6d4bd74ca0334e476ad7fadeecc2dd185d5fc44da99aec4ebe917715dc9926fa88b814a49080553ae046276",
+          "sha256": "fd5fccb2ef97bdf06a94a30c147767914c9125c0e265c5875f5b4d85ac08dfc5",
+          "sha1": "e9abf76ab12b49fc0f045c820d1da1613eff3f2c",
+          "md5": "903e9151941e5de59343d2dbb173473d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fidgetz-fabric-0.5.4+26.2-sources.jar",
+          "url": "fidgetz-fabric-0.5.4+26.2-sources.jar",
+          "size": 119014,
+          "sha512": "8f4c6875b70c471553b4910e07ca614e866de20ce0a3e3758d9ea4f81c4f03da706cbfc470ff9e28105b658e29eef5d0c4e79544f158d577e7f3f068c1cfed21",
+          "sha256": "78a2d0c8b245028e32a7de7566f12bbde105ab3533e30d85757c6d1b7f4a15ab",
+          "sha1": "cf42267effea787bb62bb063a9b6f6a554d00928",
+          "md5": "70d4453b1548156a35136f540b2d7e9f"
+        }
+      ]
+    }
+  ]
+}
