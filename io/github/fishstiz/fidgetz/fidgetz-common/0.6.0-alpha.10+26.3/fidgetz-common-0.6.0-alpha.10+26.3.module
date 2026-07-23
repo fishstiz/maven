@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.fishstiz.fidgetz",
+    "module": "fidgetz-common",
+    "version": "0.6.0-alpha.10+26.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "fidgetz-common-0.6.0-alpha.10+26.3.jar",
+          "url": "fidgetz-common-0.6.0-alpha.10+26.3.jar",
+          "size": 322797,
+          "sha512": "e6a4ee98e77224894e91da9be87136b2031419e480fecbdb0bd498f1a1423b75637a06805c9d10cf686d8526743606717981cfcff78a1457396a04e276efc092",
+          "sha256": "4e47057406883ac7013e5f4807dac0e493a61654c85d334071d2918b0bebc355",
+          "sha1": "a540cccd6cfcc40e3bbe8f7f67bcf6dfd03cf8fd",
+          "md5": "626b991d50c369f553d8448436e85fc4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fidgetz-common-0.6.0-alpha.10+26.3.jar",
+          "url": "fidgetz-common-0.6.0-alpha.10+26.3.jar",
+          "size": 322797,
+          "sha512": "e6a4ee98e77224894e91da9be87136b2031419e480fecbdb0bd498f1a1423b75637a06805c9d10cf686d8526743606717981cfcff78a1457396a04e276efc092",
+          "sha256": "4e47057406883ac7013e5f4807dac0e493a61654c85d334071d2918b0bebc355",
+          "sha1": "a540cccd6cfcc40e3bbe8f7f67bcf6dfd03cf8fd",
+          "md5": "626b991d50c369f553d8448436e85fc4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "fidgetz-common-0.6.0-alpha.10+26.3-sources.jar",
+          "url": "fidgetz-common-0.6.0-alpha.10+26.3-sources.jar",
+          "size": 121574,
+          "sha512": "9b53b79d2c337d3c3542761d0ede92f124c51b418648771e82b3cd5dfb2c2f4efce526003635d5c67be76af2273b32516af34312d55ef3099fee1830c630dbd1",
+          "sha256": "30ab05bc80be5b7fe8b0601b61892651d98b805d90ec60c1bb624b8e1ef3d47e",
+          "sha1": "7a0569596b2ac699947aa189337ff2c45ff4ca70",
+          "md5": "67b36c1791ad7055633a6a04645ca8e5"
+        }
+      ]
+    }
+  ]
+}
