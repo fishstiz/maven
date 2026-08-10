@@ -3,8 +3,8 @@
   <groupId>io.github.fishstiz.fidgetz</groupId>
   <artifactId>fidgetz-fabric</artifactId>
   <versioning>
-    <latest>0.6.2-alpha.1+26.3</latest>
-    <release>0.6.2-alpha.1+26.3</release>
+    <latest>0.6.2+1.21.1-patch.1</latest>
+    <release>0.6.2+1.21.1-patch.1</release>
     <versions>
       <version>0.2.0+1.21.1</version>
       <version>0.2.0+1.21.4</version>
@@ -49,7 +49,8 @@
       <version>0.6.2+26.1</version>
       <version>0.6.2+26.2</version>
       <version>0.6.2-alpha.1+26.3</version>
+      <version>0.6.2+1.21.1-patch.1</version>
     </versions>
-    <lastUpdated>20260804162026</lastUpdated>
+    <lastUpdated>20260810062526</lastUpdated>
   </versioning>
 </metadata>
