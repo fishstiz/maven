@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.fishstiz.packed_packs",
+    "module": "packed_packs-fabric",
+    "version": "2.2.3+1.21.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.fishstiz.packed_packs.api",
+          "module": "packed_packs_api-fabric",
+          "version": {
+            "requires": "2.2.3+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fishstiz.fidgetz",
+          "module": "fidgetz-fabric",
+          "version": {
+            "requires": "0.6.2+1.21.1-patch.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "packed_packs-fabric-2.2.3+1.21.1.jar",
+          "url": "packed_packs-fabric-2.2.3+1.21.1.jar",
+          "size": 820571,
+          "sha512": "db93f7e1219a292ab317043279eb317a85cbce8cf92bb097c02053cd3e570e81298a47937ca7da80a3713730c331eb29475067682f36585cf36efd8c73447681",
+          "sha256": "432ad4135dd83d7b40dc9fefab13d9c90d36566883c30a2cc04ba4fc9d7ad064",
+          "sha1": "8258872382f45ce3f3f252789fb85401439f2d58",
+          "md5": "7f27c1bf5a5f29c73ae00b12a339c96a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.fishstiz.packed_packs.api",
+          "module": "packed_packs_api-fabric",
+          "version": {
+            "requires": "2.2.3+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fishstiz.fidgetz",
+          "module": "fidgetz-fabric",
+          "version": {
+            "requires": "0.6.2+1.21.1-patch.1"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.115.1+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "packed_packs-fabric-2.2.3+1.21.1.jar",
+          "url": "packed_packs-fabric-2.2.3+1.21.1.jar",
+          "size": 820571,
+          "sha512": "db93f7e1219a292ab317043279eb317a85cbce8cf92bb097c02053cd3e570e81298a47937ca7da80a3713730c331eb29475067682f36585cf36efd8c73447681",
+          "sha256": "432ad4135dd83d7b40dc9fefab13d9c90d36566883c30a2cc04ba4fc9d7ad064",
+          "sha1": "8258872382f45ce3f3f252789fb85401439f2d58",
+          "md5": "7f27c1bf5a5f29c73ae00b12a339c96a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "packed_packs-fabric-2.2.3+1.21.1-sources.jar",
+          "url": "packed_packs-fabric-2.2.3+1.21.1-sources.jar",
+          "size": 188740,
+          "sha512": "7f8b5a82379c8f600f214fe099a4076dc693c2e7ea609bccf118c6a1670d416213449fe41451084fe673a844d7b033db442e2b9b9d1c70c52b41d194952ec2e8",
+          "sha256": "d0235a6dcd1bd08ed265f5f8c8ec8cd80da0406f3a93c3e56d8d67a15666a59e",
+          "sha1": "a20e3e85f590ff1c99f495ccb1edf07e17796db5",
+          "md5": "d445fecdf78a97d53ae4a1576c66adb1"
+        }
+      ]
+    }
+  ]
+}
