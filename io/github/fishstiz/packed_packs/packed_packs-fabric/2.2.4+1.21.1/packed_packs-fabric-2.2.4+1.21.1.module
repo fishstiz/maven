@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.fishstiz.packed_packs",
+    "module": "packed_packs-fabric",
+    "version": "2.2.4+1.21.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.fishstiz.packed_packs.api",
+          "module": "packed_packs_api-fabric",
+          "version": {
+            "requires": "2.2.4+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fishstiz.fidgetz",
+          "module": "fidgetz-fabric",
+          "version": {
+            "requires": "0.6.2+1.21.1-patch.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "packed_packs-fabric-2.2.4+1.21.1.jar",
+          "url": "packed_packs-fabric-2.2.4+1.21.1.jar",
+          "size": 822097,
+          "sha512": "4e7e91e9e53a96d3814c3df823ca64c3ed28ddca32035ff4189b50a29155068a0796a535a40a6038c494b9d8a2628f2ef7869723e2fedf80f2c222297f189dc6",
+          "sha256": "dc64e21da13c211fc209c21ae1b2103e33565395c7bede588a5aed8720be698f",
+          "sha1": "e959bc703405a712d1d4b39d8a2e5261cd0b3c60",
+          "md5": "bc1afe4590a61abc8defe32a05843f47"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.fishstiz.packed_packs.api",
+          "module": "packed_packs_api-fabric",
+          "version": {
+            "requires": "2.2.4+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fishstiz.fidgetz",
+          "module": "fidgetz-fabric",
+          "version": {
+            "requires": "0.6.2+1.21.1-patch.1"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.115.1+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "packed_packs-fabric-2.2.4+1.21.1.jar",
+          "url": "packed_packs-fabric-2.2.4+1.21.1.jar",
+          "size": 822097,
+          "sha512": "4e7e91e9e53a96d3814c3df823ca64c3ed28ddca32035ff4189b50a29155068a0796a535a40a6038c494b9d8a2628f2ef7869723e2fedf80f2c222297f189dc6",
+          "sha256": "dc64e21da13c211fc209c21ae1b2103e33565395c7bede588a5aed8720be698f",
+          "sha1": "e959bc703405a712d1d4b39d8a2e5261cd0b3c60",
+          "md5": "bc1afe4590a61abc8defe32a05843f47"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "packed_packs-fabric-2.2.4+1.21.1-sources.jar",
+          "url": "packed_packs-fabric-2.2.4+1.21.1-sources.jar",
+          "size": 189408,
+          "sha512": "81677a8e2c8b7340fb24fba8801a4c9e48cb23132281abdb795d3a803b6c3c595ae0e526f2026add0b8f8c43937cc1e6bf300663ee5a69fa4429ac6d46bece98",
+          "sha256": "665b0cc0ed6dd01d47fbc66e3b32262afd6688d132cc731fc5a93407daf3ac15",
+          "sha1": "6108ca9e2b87786960ae3eaf9814d6ed767281fd",
+          "md5": "a8506e5eaae3c737f1a4f1e0fb82e517"
+        }
+      ]
+    }
+  ]
+}
