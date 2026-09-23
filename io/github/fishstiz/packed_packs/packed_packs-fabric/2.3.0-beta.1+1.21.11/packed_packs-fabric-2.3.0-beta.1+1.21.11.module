@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.fishstiz.packed_packs",
+    "module": "packed_packs-fabric",
+    "version": "2.3.0-beta.1+1.21.11",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.fishstiz.packed_packs.api",
+          "module": "packed_packs_api-fabric",
+          "version": {
+            "requires": "2.3.0-beta.1+1.21.11"
+          }
+        },
+        {
+          "group": "io.github.fishstiz.fidgetz",
+          "module": "fidgetz-fabric",
+          "version": {
+            "requires": "0.7.3+1.21.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "packed_packs-fabric-2.3.0-beta.1+1.21.11.jar",
+          "url": "packed_packs-fabric-2.3.0-beta.1+1.21.11.jar",
+          "size": 979821,
+          "sha512": "1eb9c71b142fb6e98563d230f5443242fe0f499125814d305629a4a3579ece0278fdc3d32768787956f8841fc50aca93d215191a8f208b5d2cdd36b2e34f1a46",
+          "sha256": "3a4d2be98e048c44ef6a5fe245698f617f91cf3e49141e478fd699f7ab5d7c98",
+          "sha1": "dba10a8cc5301eadb9c15eb8bf72c8fedbcefd42",
+          "md5": "5b9393aae3179fd4142485606538f5a0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.fishstiz.packed_packs.api",
+          "module": "packed_packs_api-fabric",
+          "version": {
+            "requires": "2.3.0-beta.1+1.21.11"
+          }
+        },
+        {
+          "group": "io.github.fishstiz.fidgetz",
+          "module": "fidgetz-fabric",
+          "version": {
+            "requires": "0.7.3+1.21.11"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.18.4"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.141.3+1.21.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "packed_packs-fabric-2.3.0-beta.1+1.21.11.jar",
+          "url": "packed_packs-fabric-2.3.0-beta.1+1.21.11.jar",
+          "size": 979821,
+          "sha512": "1eb9c71b142fb6e98563d230f5443242fe0f499125814d305629a4a3579ece0278fdc3d32768787956f8841fc50aca93d215191a8f208b5d2cdd36b2e34f1a46",
+          "sha256": "3a4d2be98e048c44ef6a5fe245698f617f91cf3e49141e478fd699f7ab5d7c98",
+          "sha1": "dba10a8cc5301eadb9c15eb8bf72c8fedbcefd42",
+          "md5": "5b9393aae3179fd4142485606538f5a0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "packed_packs-fabric-2.3.0-beta.1+1.21.11-sources.jar",
+          "url": "packed_packs-fabric-2.3.0-beta.1+1.21.11-sources.jar",
+          "size": 198925,
+          "sha512": "d879efce44636f0ca13cb06335fa0ccea3c3c5817c43b47932a138acff1111915eb13c0ca167873efea3f08ff77bc68d7ff986fac920e940432ea5e2f67fd2b1",
+          "sha256": "95631f7f225ce4c01ac15ec8f5ee2a8615a995a72c4251cdf471e8043d7d1e48",
+          "sha1": "dc9a0ed42a4f936551cc21834376bd73bee8b0fb",
+          "md5": "4c36a64fbd9571807dc636ac82b90eb7"
+        }
+      ]
+    }
+  ]
+}
