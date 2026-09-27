@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.fishstiz.packed_packs",
+    "module": "packed_packs-neoforge",
+    "version": "2.3.0-beta.2+1.21.11",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.fishstiz.packed_packs.api",
+          "module": "packed_packs_api-neoforge",
+          "version": {
+            "requires": "2.3.0-beta.2+1.21.11"
+          }
+        },
+        {
+          "group": "io.github.fishstiz.fidgetz",
+          "module": "fidgetz-neoforge",
+          "version": {
+            "requires": "0.7.3+1.21.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "packed_packs-neoforge-2.3.0-beta.2+1.21.11.jar",
+          "url": "packed_packs-neoforge-2.3.0-beta.2+1.21.11.jar",
+          "size": 965407,
+          "sha512": "64b22c670ad4078d89842073198a7212b822bb9fc5ef013bf8657b9032a893520354e52bca91f87bb236cfd9b5eaec705eb2e19921d0a4e94d30df4030a6ef7e",
+          "sha256": "e57ab7ef8391bd40adb6b151f33bcda8ce76be428fdd809f7ce545a08231f285",
+          "sha1": "e41ef0d90a9a6ddae143a03b5c22004e9eda8001",
+          "md5": "02a18055bb0bd1be1b116f104120a381"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.fishstiz.packed_packs.api",
+          "module": "packed_packs_api-neoforge",
+          "version": {
+            "requires": "2.3.0-beta.2+1.21.11"
+          }
+        },
+        {
+          "group": "io.github.fishstiz.fidgetz",
+          "module": "fidgetz-neoforge",
+          "version": {
+            "requires": "0.7.3+1.21.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "packed_packs-neoforge-2.3.0-beta.2+1.21.11.jar",
+          "url": "packed_packs-neoforge-2.3.0-beta.2+1.21.11.jar",
+          "size": 965407,
+          "sha512": "64b22c670ad4078d89842073198a7212b822bb9fc5ef013bf8657b9032a893520354e52bca91f87bb236cfd9b5eaec705eb2e19921d0a4e94d30df4030a6ef7e",
+          "sha256": "e57ab7ef8391bd40adb6b151f33bcda8ce76be428fdd809f7ce545a08231f285",
+          "sha1": "e41ef0d90a9a6ddae143a03b5c22004e9eda8001",
+          "md5": "02a18055bb0bd1be1b116f104120a381"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "packed_packs-neoforge-2.3.0-beta.2+1.21.11-sources.jar",
+          "url": "packed_packs-neoforge-2.3.0-beta.2+1.21.11-sources.jar",
+          "size": 192601,
+          "sha512": "e5c610cc9fbd6bd8fa792828bcb67e9a218daf5cc457fb5330958c0e4033ecaa2497a2632380f7249c17c9caeddc170ec32ddeb2f4f9793bee2f662bf1f0ba3f",
+          "sha256": "bedc352d5e6fa49a43df76f6dfc2c8a2a20e33efb5402e69d24690c1578ca34a",
+          "sha1": "3e544337d602e1a6eb9d862e12a96ed650c8445a",
+          "md5": "0e6228a65fcda196a554e25203be0374"
+        }
+      ]
+    }
+  ]
+}
