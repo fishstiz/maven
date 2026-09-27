@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.fishstiz.packed_packs.api",
+    "module": "packed_packs_api-fabric",
+    "version": "2.3.0-beta.2+26.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "packed_packs_api-fabric-2.3.0-beta.2+26.1.jar",
+          "url": "packed_packs_api-fabric-2.3.0-beta.2+26.1.jar",
+          "size": 34240,
+          "sha512": "a167966294367aa38c5641eefce8fcfc1ef6bd98d744b288c34f34c75ecc730538a41c6ff669e33ca856bee82b4f368358051fd0c0e7eac0211abb933b271f93",
+          "sha256": "af5e9e67cb1518194dfde30bdad6c059848be2ac2f17a2916ef802bebc43c515",
+          "sha1": "31cd634d8667b3333e9735d997b7daef5f625f4d",
+          "md5": "19649b4304f64365b22551602353708c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.19.3"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.143.15+26.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "packed_packs_api-fabric-2.3.0-beta.2+26.1.jar",
+          "url": "packed_packs_api-fabric-2.3.0-beta.2+26.1.jar",
+          "size": 34240,
+          "sha512": "a167966294367aa38c5641eefce8fcfc1ef6bd98d744b288c34f34c75ecc730538a41c6ff669e33ca856bee82b4f368358051fd0c0e7eac0211abb933b271f93",
+          "sha256": "af5e9e67cb1518194dfde30bdad6c059848be2ac2f17a2916ef802bebc43c515",
+          "sha1": "31cd634d8667b3333e9735d997b7daef5f625f4d",
+          "md5": "19649b4304f64365b22551602353708c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "packed_packs_api-fabric-2.3.0-beta.2+26.1-sources.jar",
+          "url": "packed_packs_api-fabric-2.3.0-beta.2+26.1-sources.jar",
+          "size": 19405,
+          "sha512": "25777826d7fb35726114dab59a06856c36ccc5e761c0b85750bad892c4261fb078a2b8f0347f92e93a79be2640e36bd008fcd816f98242d2646aa292e5da9fc1",
+          "sha256": "d53be9e363e05ac84e0944362092ff28d8a7419ebe26b0215daf4d63098f84fc",
+          "sha1": "7e3e0f9c98510c1bc85d0a91a63f72ef32d0f7b6",
+          "md5": "c26a72ed9a0542d45a631a68c5cf6601"
+        }
+      ]
+    }
+  ]
+}
