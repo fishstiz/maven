@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.fishstiz.packed_packs",
+    "module": "packed_packs-fabric",
+    "version": "2.3.0-beta.3+26.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.fishstiz.packed_packs.api",
+          "module": "packed_packs_api-fabric",
+          "version": {
+            "requires": "2.3.0-beta.3+26.3"
+          }
+        },
+        {
+          "group": "io.github.fishstiz.fidgetz",
+          "module": "fidgetz-fabric",
+          "version": {
+            "requires": "0.7.3+26.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "packed_packs-fabric-2.3.0-beta.3+26.3.jar",
+          "url": "packed_packs-fabric-2.3.0-beta.3+26.3.jar",
+          "size": 982160,
+          "sha512": "3533aa8897d6ad449cb51b0bbe2af4bddde6651bfb3834d303e2bd74254be18a45bc0f4b5ef07f41b39f216b4de255695c681b945547dcb3646d8224d4fbf88d",
+          "sha256": "c4fb986c76b845979c702e73f949be6eaac55ff6569d18a812dbc3322469c78d",
+          "sha1": "70a468f8934d9b75896ff1ba34b0286f6d92bfc9",
+          "md5": "fc04e6ce984faaa5dd43fd142f0ebcc8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.19.3"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.161.0+26.3"
+          }
+        },
+        {
+          "group": "io.github.fishstiz.packed_packs.api",
+          "module": "packed_packs_api-fabric",
+          "version": {
+            "requires": "2.3.0-beta.3+26.3"
+          }
+        },
+        {
+          "group": "io.github.fishstiz.fidgetz",
+          "module": "fidgetz-fabric",
+          "version": {
+            "requires": "0.7.3+26.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "packed_packs-fabric-2.3.0-beta.3+26.3.jar",
+          "url": "packed_packs-fabric-2.3.0-beta.3+26.3.jar",
+          "size": 982160,
+          "sha512": "3533aa8897d6ad449cb51b0bbe2af4bddde6651bfb3834d303e2bd74254be18a45bc0f4b5ef07f41b39f216b4de255695c681b945547dcb3646d8224d4fbf88d",
+          "sha256": "c4fb986c76b845979c702e73f949be6eaac55ff6569d18a812dbc3322469c78d",
+          "sha1": "70a468f8934d9b75896ff1ba34b0286f6d92bfc9",
+          "md5": "fc04e6ce984faaa5dd43fd142f0ebcc8"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "packed_packs-fabric-2.3.0-beta.3+26.3-sources.jar",
+          "url": "packed_packs-fabric-2.3.0-beta.3+26.3-sources.jar",
+          "size": 198992,
+          "sha512": "6a638d6fd87644d0b563eb421b950f79b53f55be4ecdb1f8b98bba98cd2be9522e41848184a497d0e2e23007105123361f8e3887f6442e7fd5fd02326a9627a0",
+          "sha256": "c84e22b50fd1a8eda5d01fff401eb1442713cd230b3115614c855a957e645380",
+          "sha1": "e173218812903893531d1e025164e8aa7f59fdc5",
+          "md5": "c872f07426198090f802f18f3019f3c9"
+        }
+      ]
+    }
+  ]
+}
