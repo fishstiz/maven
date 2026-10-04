@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.fishstiz.packed_packs",
+    "module": "packed_packs-fabric",
+    "version": "2.3.0+1.21.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.fishstiz.packed_packs.api",
+          "module": "packed_packs_api-fabric",
+          "version": {
+            "requires": "2.3.0+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fishstiz.fidgetz",
+          "module": "fidgetz-fabric",
+          "version": {
+            "requires": "0.7.3-patch.1+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "packed_packs-fabric-2.3.0+1.21.1.jar",
+          "url": "packed_packs-fabric-2.3.0+1.21.1.jar",
+          "size": 1003114,
+          "sha512": "441e692a8bccb05834f5f7400437742ce95bc84733f4afa18d8d407a6a131e94f020b7e7aa5357a1225b3c15adf5b88aae1d4800b0463bc0a54fc3f3f8834cd2",
+          "sha256": "1ac7a7a7dba0a8d1d9630d29fd2de10889fb64b80f7e2331beb7252e7b7b9071",
+          "sha1": "7e520f94db9e6c39f7c5b88b001227bfbc348731",
+          "md5": "f5cc7e9f24f232ee4c9ccc8aa02429f3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.fishstiz.packed_packs.api",
+          "module": "packed_packs_api-fabric",
+          "version": {
+            "requires": "2.3.0+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fishstiz.fidgetz",
+          "module": "fidgetz-fabric",
+          "version": {
+            "requires": "0.7.3-patch.1+1.21.1"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.115.1+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "packed_packs-fabric-2.3.0+1.21.1.jar",
+          "url": "packed_packs-fabric-2.3.0+1.21.1.jar",
+          "size": 1003114,
+          "sha512": "441e692a8bccb05834f5f7400437742ce95bc84733f4afa18d8d407a6a131e94f020b7e7aa5357a1225b3c15adf5b88aae1d4800b0463bc0a54fc3f3f8834cd2",
+          "sha256": "1ac7a7a7dba0a8d1d9630d29fd2de10889fb64b80f7e2331beb7252e7b7b9071",
+          "sha1": "7e520f94db9e6c39f7c5b88b001227bfbc348731",
+          "md5": "f5cc7e9f24f232ee4c9ccc8aa02429f3"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "packed_packs-fabric-2.3.0+1.21.1-sources.jar",
+          "url": "packed_packs-fabric-2.3.0+1.21.1-sources.jar",
+          "size": 205937,
+          "sha512": "d585add9f847fd474e5456bd6fec13317b0f26afdb639e0edb918f2a0fb862f1b1e2adf5dfe334b191628b0bb059237d86cd95d59b2a6eb5dc230a460b8d17ed",
+          "sha256": "b6fcfdd6cc3b1ba8d7c970cdc8b3464687fa31a602f5e25d7e75ff2ade1142d4",
+          "sha1": "db7c337240b088024853126213cea53c5e416dcb",
+          "md5": "7d348680fa1d138977d6ce96d52dd316"
+        }
+      ]
+    }
+  ]
+}
