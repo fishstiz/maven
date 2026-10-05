@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.fishstiz.packed_packs",
+    "module": "packed_packs-fabric",
+    "version": "2.3.1+1.21.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.fishstiz.packed_packs.api",
+          "module": "packed_packs_api-fabric",
+          "version": {
+            "requires": "2.3.1+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fishstiz.fidgetz",
+          "module": "fidgetz-fabric",
+          "version": {
+            "requires": "0.7.3-patch.1+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "packed_packs-fabric-2.3.1+1.21.1.jar",
+          "url": "packed_packs-fabric-2.3.1+1.21.1.jar",
+          "size": 1003380,
+          "sha512": "b384a4f3407b286039813333fdfec66517fca92fc16054b164dd4625a4ab24bab7b5afe165dec0c234e87771f0293444a003758a0a200f294cba1dd35836fa44",
+          "sha256": "e7c4b78f8f462c8d2dfb599b79fdb4bbaa47099f5fa14eadf61956434f0a840f",
+          "sha1": "abec0a851130b0e7219601e668f9fff0803d797f",
+          "md5": "127cea6195c073ac8701fe05f271a999"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.fishstiz.packed_packs.api",
+          "module": "packed_packs_api-fabric",
+          "version": {
+            "requires": "2.3.1+1.21.1"
+          }
+        },
+        {
+          "group": "io.github.fishstiz.fidgetz",
+          "module": "fidgetz-fabric",
+          "version": {
+            "requires": "0.7.3-patch.1+1.21.1"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.10"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.115.1+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "packed_packs-fabric-2.3.1+1.21.1.jar",
+          "url": "packed_packs-fabric-2.3.1+1.21.1.jar",
+          "size": 1003380,
+          "sha512": "b384a4f3407b286039813333fdfec66517fca92fc16054b164dd4625a4ab24bab7b5afe165dec0c234e87771f0293444a003758a0a200f294cba1dd35836fa44",
+          "sha256": "e7c4b78f8f462c8d2dfb599b79fdb4bbaa47099f5fa14eadf61956434f0a840f",
+          "sha1": "abec0a851130b0e7219601e668f9fff0803d797f",
+          "md5": "127cea6195c073ac8701fe05f271a999"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "packed_packs-fabric-2.3.1+1.21.1-sources.jar",
+          "url": "packed_packs-fabric-2.3.1+1.21.1-sources.jar",
+          "size": 205993,
+          "sha512": "bc2d8a46fc889b380a049dbe86a4e19ddd90ab253f6d997dbadba8a2bb1add710dac3705850ed46e143b27b28a53157a865191c6ab5661ea8d6aeb33b1e26734",
+          "sha256": "3ba9c31e8b4c8bec122531e8a1e8e18ec51e81f31251c47f2c83547d41b1f7fe",
+          "sha1": "098f41c5ea6f323fccc8da539efd8355f9b4128a",
+          "md5": "555319851e30178b4ae053a5914280aa"
+        }
+      ]
+    }
+  ]
+}
