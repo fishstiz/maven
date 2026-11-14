@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.fishstiz.packed_packs.api",
+    "module": "packed_packs_api-common",
+    "version": "2.4.0+1.21.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "packed_packs_api-common-2.4.0+1.21.1.jar",
+          "url": "packed_packs_api-common-2.4.0+1.21.1.jar",
+          "size": 32126,
+          "sha512": "1187c4a078ade629a61ed47f8fb6675382a5dd6067d3f8b4015d4996a6d63fa8e2e9454cb82e89de883da01f55c666021ee5683debba431716a2cdf25c9d57a4",
+          "sha256": "f39a09b5ea7410fac61432e5c0db004750ae586ea4c197f6668f4bffb4decfbd",
+          "sha1": "4cd1cad4b3305daf875260b8d6b0aee320815de1",
+          "md5": "f3c99222cdc43548288f1761e6079ff4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "packed_packs_api-common-2.4.0+1.21.1.jar",
+          "url": "packed_packs_api-common-2.4.0+1.21.1.jar",
+          "size": 32126,
+          "sha512": "1187c4a078ade629a61ed47f8fb6675382a5dd6067d3f8b4015d4996a6d63fa8e2e9454cb82e89de883da01f55c666021ee5683debba431716a2cdf25c9d57a4",
+          "sha256": "f39a09b5ea7410fac61432e5c0db004750ae586ea4c197f6668f4bffb4decfbd",
+          "sha1": "4cd1cad4b3305daf875260b8d6b0aee320815de1",
+          "md5": "f3c99222cdc43548288f1761e6079ff4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "packed_packs_api-common-2.4.0+1.21.1-sources.jar",
+          "url": "packed_packs_api-common-2.4.0+1.21.1-sources.jar",
+          "size": 19207,
+          "sha512": "d8b1b238d96d3917c98a6cce3888d243fc752d240683573536b2309960f88f9461cd36ff840ea03a4398cceadd49a60afe161b92383c72353ebc307ceafc4e2b",
+          "sha256": "1ee02bf419a5d86e19e2f76e6ddd20a967025affd5dec5301e57846041040afb",
+          "sha1": "52d484e81d3f0e3ce0b870263a07fcde103e27ef",
+          "md5": "8c9c255a4281e86c57fdd8539f7e573c"
+        }
+      ]
+    }
+  ]
+}
